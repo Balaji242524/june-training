@@ -8,7 +8,15 @@ const Navbar = () => {
         <h3>Course Portal</h3>
         <ul className="nav-links">
           <li><Link to={'/'}>Home</Link></li>
-          <li><Link to={'/placements'}>Placements</Link></li>
+
+          <li className="dropdown">
+            <span>Placement</span>
+            <ul className="dropdown-menu">
+              <li><Link to="/Placements/ITPlacement">IT</Link></li>
+              <li><Link to="/Placements/CorePlacement">Core</Link></li>
+              <li><Link to="/Placements/ITCorePlacement">IT & Core</Link></li>
+            </ul>
+          </li>
 
           <li className="dropdown">
             <span>Courses</span>
