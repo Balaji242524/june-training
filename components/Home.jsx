@@ -7,7 +7,7 @@ const Home = () => {
       <Navbar />
       </div>
     <div>
-      <h1>Welcome to Course portal</h1>
+      <h1>Welcome to Course portal !</h1>
     </div>
     </>
   )
