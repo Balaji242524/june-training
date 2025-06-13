@@ -11,6 +11,7 @@ import AIML from '../components/courses/AiMl'
 import ITPlacement from '../components/placements/ITplacement'
 import CorePlacement from '../components/placements/Coreplacement'
 import ITCorePlacement from '../components/placements/ITCoreplacement'
+import Register from '../components/Register'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -20,7 +21,8 @@ const App = () => {
 <Routes>
   <Route>
     <Route path="/" element={<Home />} />
-    <Route path="/login" element={<Login />} />
+    <Route path="/Login" element={<Login />} />
+    <Route path="/Register" element={<Register />} />
     <Route path="/navbar" element={<Navbar />} />
     <Route path="/Courses" element={<Courses />} />
     <Route path="/Courses/IT" element={<IT />} />
